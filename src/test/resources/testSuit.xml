@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suit name ="regression" parallel="tests" thread-count="2">
+<test name = " Zoopla on Chrome">
+<parameter name ="browser" value="chrome"></parameter>
+<classes>
+<class name = "com.zoopla.TestBase.Tests"></class>
+</classes>
+</test>
+
+<test name = " Zoopla on Firefox">
+<parameter name ="browser" value="firefox"></parameter>
+<classes>
+<class name = "com.zoopla.TestBase.Tests"></class>
+</classes>
+</test>
+
+</suit>
